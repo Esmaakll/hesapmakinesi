@@ -1,0 +1,44 @@
+html, body{
+    background-color: black;
+    min-height: 100% !important;
+    width: 100%;
+}
+.total{
+    color :purple;
+    text-align: left;
+    font-size: 100px;
+    margin: 10px;
+
+
+}
+.contaier{
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns:  25 25 25 25 ;
+
+}
+.item{
+height: 100px;
+font-size: 50px;
+width: 100px;
+border-radius: 100%;
+margin:1px;
+}
+.item-kırmızı{
+    background-color:	#D81B60;
+    border: 0;
+
+}
+.item-darkpink{
+    background-color:	#F48FB1;
+    border: 0;
+}
+.item-darkgrey{
+    background-color:#FCE4EC;
+    border: 0;
+}
